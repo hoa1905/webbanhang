@@ -1,0 +1,16 @@
+.contain{
+    display: inline-flex;
+}
+
+.carousel-inner{
+    height: 500px;
+    margin-left: 0px;
+    margin-right: 300px;
+}
+
+.adv{
+    margin-left: 3px;
+}
+.card.mb-3{
+    background-color: chartreuse;
+}

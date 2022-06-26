@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #f5f6f9; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header {
+    background-color:#FF9240;
+}
+.header_nav_top {
+    padding-top: 5px;
+    margin-right: 100px;
+    float: right;
+}
+.header_nav_top_a {
+    color: black;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.header_nav_top_a.dang_ky {
+    padding-left: 10px;
+}
+.logo {
+    padding-top: 5px;
+    padding-left: 100px;
+}
+.ten_shop {
+    font-size: 22px; 
+    color: #FFFFA9;
+}
+.form_timKiem {
+    width: 570px; 
+    height: 34px; 
+    display: flex; 
+    background-color: white; 
+    margin-left: 235px; 
+    border-radius: 5px;
+}
+.form_timKiem_input {
+    width: 510px;
+    padding-left: 10px; 
+    border-radius: 5px; 
+    border: 0px; 
+    outline: none;
+}
+.form_timKiem_button {
+    width: 50px; 
+    margin: 3px;
+    border: 0px;
+    border-radius: 5px; 
+    cursor: pointer; 
+    background-color: #FF9240; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.form_btnGiohang {
+    margin-left: 80px; 
+    padding: 5px; 
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header_nav_duoi {
+    padding: 5px 0px 10px 235px;
+    overflow: auto;
+}
+.header_nav_duoi_ul {
+    list-style-type: none;
+}
+.header_nav_duoi_li {
+    font-size: 13px;
+    float: left;
+    margin-right: 0px;
+    padding: 0px 20px;
+}
+a {
+    text-decoration: none;
+}
+li a {
+    color: black;
+    font-size: 11px;
+}
+i {
+    color: rgba(0, 0, 0, 0.75);
+    padding-right: 5px;
+}
+.container {
+    margin: 20px 100px 0px 100px;
+    margin-bottom: 15px;
+}
+.container_btnHang {
+    padding: 10px; 
+    font-size: 20px;
+    background-color :#f5f6f9; 
+}
+a button {
+    padding: 5px; 
+    border: 1px; 
+    border-radius: 50px;
+    width: 100px; 
+    margin-right: 8px; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: 13px;
+}
+a button:hover {
+    background-color: #96D6F9;
+    color: white;
+}
+.container_nhieuSp {
+    margin-top: 20px; 
+    display: flex;
+}
+.container_nhieuSp_sp {
+    width: 190px;
+    margin: 5px 5px 5px 0px;
+    padding: 5px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.hinhDT {
+    margin: 5px; 
+    width: 95%;
+}
+.hinhDT:hover {
+    transform: scale(1.1);
+}
+.mauHangDT {
+    color: #222;
+}
+.mauGiaDT {
+    color: #ee4d2d;
+}
+.footer {
+    margin-top: 20px;
+    background-color: #222;
+}
+h5 {
+    color: #fff; 
+    font-size: 13px;
+}
+.footer_lienHe {
+    width: 280px;
+    margin-left: 85px;    
+    padding: 15px; 
+    display: inline-block;
+}
+.footer_lienHe_ul {
+    list-style-type: square; 
+    padding-left: 15px; 
+    font-size: 12px;
+}
+.footer_lienHe_li {
+    padding: 5px 0px; 
+    color: #FFFFFF99;
+}
+.footer_sp_hoTro_tongDai_ul {
+    padding-left: 0px; 
+    font-size: 12px; 
+    list-style-type: none;
+}
+.footer_sp_hoTro_tongDai {
+    margin-left: 85px; 
+    padding: 15px; 
+    display: inline-block;
+}
+.footer_tongDai_li {
+    padding: 5px 0px; 
+    color: #FFFFFF99;
+}
+.footer_li_hover {
+    padding: 5px 0px;
+}
+.footer_li_hover a {
+    color: rgba(255, 255, 255, 0.75);
+}
+.footer_li_hover a:hover {
+    color: #fff;
+}
+.footer_Copyright {
+    padding: 10px 0px; 
+    font-size: 12px;  
+    text-align: center;
+    color: #FFFFFF99; 
+    background-color: #333;
+    border-top: #666 1px solid;
+}
+
